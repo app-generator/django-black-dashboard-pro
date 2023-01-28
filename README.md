@@ -113,7 +113,7 @@ The  theme used to style this starter provides the following files:
    |    |          
    |    |-- accounts/       
    |    |    |-- login.html          # Sign IN Page
-   |    |    |-- login.html          # Sign UP Page
+   |    |    |-- register.html       # Sign UP Page
    |    |
    |    |-- includes/       
    |    |    |-- footer.html         # Footer component
