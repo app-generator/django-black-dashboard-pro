@@ -188,6 +188,39 @@ In a similar way, all other files and components can be customized easily.
 
 <br />
 
+## Recompile SCSS  
+
+The SCSS/CSS files used to style the UI are saved in the `<YOUR_ENV>/LIB/admin_black_pro/static/assets` directory by PIP. 
+In order to update the Ui colors (primary, secondary) this procedure needs to be followed. 
+
+- Copy the `static` Directory from `VENV` to `ROOT/static` 
+  - like this, Django will use the local versions and ignore the `VENV` files 
+- Install dependencies via `Yarn`
+- Edit `_variables.scss`
+- Regenerate CSS via `gulp` 
+
+```bash
+$ yarn # install modules
+$ # # edit variables 
+$ vi static/assets/scss/black-dashboard/custom/_variables.scss 
+$ gulp # SCSS to CSS translation
+```
+
+The `_variables.scss` content defines the `primary` and `secondary` colors: 
+
+```scss
+$default:       #344675 !default; // EDIT for customization
+$primary:       #e14eca !default; // EDIT for customization
+$secondary:     #f4f5f7 !default; // EDIT for customization
+$success:       #00f2c3 !default; // EDIT for customization
+$info:          #1d8cf8 !default; // EDIT for customization
+$warning:       #ff8d72 !default; // EDIT for customization
+$danger:        #fd5d93 !default; // EDIT for customization
+$black:         #222a42 !default; // EDIT for customization
+```
+
+<br />
+
 ## Deploy on [Render](https://render.com/)
 
 - Create a Blueprint instance
