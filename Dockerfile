@@ -4,6 +4,8 @@ FROM python:3.9
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
+#ENV GITHUB_TOKEN TOKEN_HERE
+
 COPY requirements.txt .
 # install python dependencies
 RUN pip install --upgrade pip
