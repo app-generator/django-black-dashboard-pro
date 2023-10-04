@@ -1,6 +1,6 @@
 # [Django Black PRO](https://appseed.us/product/black-dashboard-pro/django/)
 
-**Django** starter styled with **[Black Dashboard PRO](https://appseed.us/product/black-dashboard-pro/django/)**, a premium `Bootstrap` Design from [Creative-Tim](https://bit.ly/3fKQZaL).
+**[Django](https://appseed.us/admin-dashboards/django/)** Starter styled with **Black Dashboard PRO**, a premium `Bootstrap` Design from `Creative-Tim`.
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
 > **NOTE**: This product `requires a License` in order to access the theme. During the purchase, a `GitHub Access TOKEN` is provided. 
