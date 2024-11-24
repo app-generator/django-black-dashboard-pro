@@ -24,7 +24,7 @@ The product is designed to deliver the best possible user experience with highly
 - i18n (internationalization) 
 - `Docker`
 
-![Argon Dashboard 2 PRO - Charts Page (Premium Bootstrap 5 Design)](https://github.com/app-generator/flask-argon-dashboard2-pro/assets/51070104/168056b7-0886-44ca-8bda-0ae8e76d9076)
+![Django Black PRO - Premium Django starter built with Black Dashboard design from Creative-Tim](https://github.com/user-attachments/assets/63c1ea5b-6c8b-4e67-8e07-156c3e06895f)
 
 <br />
 
